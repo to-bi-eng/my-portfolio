@@ -14,7 +14,7 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (max-width: 300px) {
+@media (max-width: 450px) {
   .title {
     font-size: 2rem;
     font-weight: bold;
@@ -22,7 +22,7 @@
   }
 }
 
-@media (min-width: 301px) and (max-width: 600px) {
+@media (min-width: 451px) and (max-width: 600px) {
   .title {
     font-size: 4rem;
     font-weight: bold;
