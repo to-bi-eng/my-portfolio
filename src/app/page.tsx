@@ -46,6 +46,11 @@ export default function Home() {
       {/* 成果物 */}
       <section id="works">
         <h2 className="text-4xl text-blue-400 py-20 underline text-center">Works</h2>
+        <div className="bg-blue-100 text-center">
+          <h3>自己紹介ホームページ</h3>
+          <p>自己紹介をしているサイトです。</p>
+          <a href="https://my-portfolio-phi-six-31.vercel.app" className="bg-blue-500 hover:bg-blue-600 text-white rounded-lg shadow-lg">Visit Work</a>
+        </div>
       </section>
     </div>
   );
