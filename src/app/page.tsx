@@ -45,11 +45,22 @@ export default function Home() {
 
       {/* 成果物 */}
       <section id="works">
-        <h2 className="text-4xl text-blue-400 py-20 underline text-center">Works</h2>
-        <div className="bg-blue-100 text-center">
-          <h3>自己紹介ホームページ</h3>
-          <p>自己紹介をしているサイトです。</p>
-          <a href="https://my-portfolio-phi-six-31.vercel.app" className="bg-blue-500 hover:bg-blue-600 text-white rounded-lg shadow-lg">Visit Work</a>
+        <div className="px-7">
+          <h2 className="text-4xl text-blue-400 py-20 underline text-center mb-12">Works</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-20">
+            <div className="bg-blue-100 text-center py-20 px-6 rounded-lg shadow hover:scale-105 hover:shadow-2xl shadow-lg inline-block transition duration-300">
+              <h3 className="text-xl font-semibold mb-2">自己紹介ホームページ</h3>
+              <p className="py-1">自己紹介をしているサイトです。</p>
+              <a href="https://my-portfolio-phi-six-31.vercel.app" className="bg-blue-500 hover:bg-blue-600 text-white rounded-lg py-2 px-4 inline-block transition 
+              duration-300">Visit Work</a>
+            </div>
+            <div className="bg-blue-100 text-center py-20 px-6 rounded-lg shadow hover:scale-105 hover:shadow-2xl shadow-lg inline-block transition duration-300">
+              <h3>メモアプリ</h3>
+              <p className="py-1">入力した文字を表形式で表示されるメモアプリです。</p>
+              <a href="#" className="bg-blue-500 hover:bg-blue-600 text-white rounded-lg shadow-lg py-2 px-4 inline-block transition 
+              duration-300">Visit Work</a>
+            </div>
+          </div>
         </div>
       </section>
     </div>
