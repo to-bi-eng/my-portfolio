@@ -14,7 +14,7 @@ export default function Header() {
         <div className="text-2xl font-bold text-white">
           <Link href="/">
             <Image
-              src="/homepage-logo.jpg"
+              src="/homepage-logo.JPG"
               alt="HomePage-Logo"
               width={50}
               height={50}
