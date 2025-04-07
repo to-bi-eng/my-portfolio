@@ -19,7 +19,7 @@ export default function Home() {
       </div>
 
       <section id="about_site">
-        <h2  className="text-4xl text-blue-400 pt-4 underline text-center">About this site</h2>
+        <h2  className="mini_title text-blue-400 pt-4 underline text-center">About this site</h2>
         <p className="text-1xl py-20 px-6 text-center">
           ここはしがない大学生とびたのポートフォリオサイトです。<br />
           今回はNext.js、Typescriptの知識を深めるためにこのサイトを作成しました。<br />
@@ -29,7 +29,7 @@ export default function Home() {
 
       {/* 自己紹介 */}
       <section id="about_me">
-        <h2 className="text-4xl text-blue-400 pt-4 underline text-center">About me</h2>
+        <h2 className="mini_title text-blue-400 pt-4 underline text-center">About me</h2>
         <p className="text-1xl py-20 px-6 text-center">
           富山県出身の情報工学科の大学生。<br />
           大学では、コンピュータサイエンス、コンピュータアーキテクチャ、IoT、情報セキュリティ、プログラミングなどを幅広く学んでいます。
@@ -38,14 +38,14 @@ export default function Home() {
 
       {/* 趣味 */}
       <section id="hobbis">
-        <h2 className="text-4xl text-blue-400 pt-4 underline text-center">Hobbis</h2>
+        <h2 className="mini_title text-blue-400 pt-4 underline text-center">Hobbis</h2>
         <p className="text-1xl py-20 px-6 text-center">旅行が好きで、大学の長期休暇には彼女と一緒に国内の観光地をめぐっています。</p>
         <TravelSlider />
       </section>
 
       {/* 成果物 */}
       <section id="works">
-        <h2 className="text-4xl text-blue-400 py-20 underline text-center">Works</h2>
+        <h2 className="mini_title text-blue-400 py-20 underline text-center">Works</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div className="bg-blue-100 text-center py-20 px-6 rounded-lg shadow-lg transform transition duration-500 hover:scale-105 hover:shadow-2xl">
             <h3 className="text-xl font-semibold mb-2">自己紹介ホームページ</h3>
