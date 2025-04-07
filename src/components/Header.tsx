@@ -59,7 +59,7 @@ export default function Header() {
               <a href="#hobbis" className="hover:text-blue-400 cursor-pointer">趣味</a>
             </li>
             <li className="px-4">
-              <a href="#works" className="hover:text-blue-400 cursor-pointer">成果物</a>
+              <a href="#works" className="hover:text-blue-400 cursor-pointer">制作物</a>
             </li>
           </ul>
         </nav>
@@ -81,7 +81,7 @@ export default function Header() {
                 <a href="#hobbis" className="hover:text-blue-400 cursor-pointer">趣味</a>
               </li>
               <li>
-                <a href="#works" className="hover:text-blue-400 cursor-pointer">成果物</a>
+                <a href="#works" className="hover:text-blue-400 cursor-pointer">制作物</a>
               </li>
             </ul>
           </div>
