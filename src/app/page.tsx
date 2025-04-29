@@ -42,7 +42,7 @@ export default function Home() {
             <li className="text-lg transition-all duration-1000 opacity-100 transition-y-0">・IoT</li>
             <li className="text-lg transition-all duration-1000 opacity-100 transition-y-0">・情報セキュリティ</li>
             <li className="text-lg transition-all duration-1000 opacity-100 transition-y-0">・SDGs</li>
-            <li className="text-lg transition-all duration-1000 opacity-100 transition-y-0">・ITを用いた市の問題解決方法</li>
+            <li className="text-lg transition-all duration-1000 opacity-100 transition-y-0">・ITを用いた市の問題解決</li>
           </ul>
         </div>
       </section>
@@ -57,16 +57,16 @@ export default function Home() {
       {/* 成果物 */}
       <section id="works">
         <h2 className="mini_title text-blue-400 py-20 underline text-center">Works</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 section-wrapper">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 section-wrapper">
           <div className="bg-blue-100 text-center py-20 px-6 rounded-lg shadow-lg transform transition duration-500 hover:scale-105 hover:shadow-2xl">
             <h3 className="text-xl font-semibold mb-2 px-4">自己紹介ホームページ</h3>
             <p className="py-1">自己紹介をしているサイトです。</p>
             <a href="https://my-portfolio-phi-six-31.vercel.app" className="bg-blue-500 hover:bg-blue-600 text-white rounded-lg py-2 px-4 inline-block transition duration-300">Visit Work</a>
           </div>
           <div className="bg-blue-100 text-center py-20 px-6 rounded-lg shadow-lg transform transition duration-500 hover:scale-105 hover:shadow-2xl">
-            <h3 className="text-xl font-semibold mb-2">メモアプリ</h3>
-            <p className="py-1">入力した文字を表形式で表示されるメモアプリです。</p>
-            <a href="#" className="bg-blue-500 hover:bg-blue-600 text-white rounded-lg shadow-lg py-2 px-4 inline-block transition duration-300">Visit Work</a>
+            <h3 className="text-xl font-semibold mb-2">活動メモ共有アプリ</h3>
+            <p className="py-1">グループでタスクを共有するアプリです。</p>
+            <a href="https://task-app-9rbl.onrender.com/" className="bg-blue-500 hover:bg-blue-600 text-white rounded-lg shadow-lg py-2 px-4 inline-block transition duration-300">Visit Work</a>
           </div>
         </div>
       </section>
