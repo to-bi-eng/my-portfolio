@@ -59,6 +59,9 @@ export default function Header() {
               <a href="#hobbis" className="hover:text-blue-400 cursor-pointer">趣味</a>
             </li>
             <li className="px-4">
+              <a href="#activities" className="hover:text-blue-400 cursor-pointer">課外活動</a>
+            </li>
+            <li className="px-4">
               <a href="#works" className="hover:text-blue-400 cursor-pointer">制作物</a>
             </li>
           </ul>
@@ -80,6 +83,9 @@ export default function Header() {
               <li>
                 <a href="#hobbis" className="hover:text-blue-400 cursor-pointer">趣味</a>
               </li>
+              <li>
+              <a href="#activities" className="hover:text-blue-400 cursor-pointer">課外活動</a>
+            </li>
               <li>
                 <a href="#works" className="hover:text-blue-400 cursor-pointer">制作物</a>
               </li>
